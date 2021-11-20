@@ -56,3 +56,8 @@ a {
 
 #main {
   padding: 50px; }
+
+img {
+  width: 200px;
+  border:  2px darkred;
+  }
