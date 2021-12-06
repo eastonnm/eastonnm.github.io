@@ -117,3 +117,11 @@ h1 {
   font-size: 4em;
   color: #333;
 }
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .25em;
+  cursor: pointer;
+  margin-left: 18em;
+}
