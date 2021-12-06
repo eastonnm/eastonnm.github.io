@@ -70,18 +70,33 @@ html, body {
   font-size: 2em;
 }
 
+h3 {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  padding: 2em;
+}
 
-a img {
-  border: none; }
+h3:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+p {
+  text-decoration: none;
+}
+
 
 body {
   font-family: sans-serif;
-  color: #2a2a2ace; }
+  line-height: 1;
+  color: #333; }
 
 a {
-  color: #0388a6; }
+  color: #333; }
   a:hover {
-    color: white; }
+    color: white; 
+  text-decoration: none;
+  }
 
 #main {
   padding: 20px;
@@ -91,12 +106,14 @@ a {
 
 img {
   width: 200px;
-  border:  2px darkred;
+  height: 150px;
+  border-style: solid;
+  border: 2px rgb(173, 0, 179);
+  margin: 2.6em;
   }
 
 h1 {
   text-align: center;
   font-size: 4em;
-  color: black
-
+  color: #333;
 }
